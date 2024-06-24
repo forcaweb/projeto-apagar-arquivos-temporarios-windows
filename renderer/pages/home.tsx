@@ -35,9 +35,9 @@ export default function HomePage() {
       
       <h1><IconsAi.AiFillDelete /> Deletar Arquivos Temporários</h1>
       <p>Ao clicar em deletar, toda responsabilidade será do úsuario. Este aplicativo foi criado para sistemas WINDOWS.</p>
-      <button onClick={deleteTempFiles}>Deletar</button>
+      <button onClick={deleteTempFiles}>Deletar Arquivos Temporários</button>
       <div className='result' id='result'>
-        Sem Resultados!
+        CLIQUE EM DELETAR...
       </div>
       <p>Desenvolvido por <a href="https://forcaweb.net" target="_blank">Força Web</a></p>   
     </div>
